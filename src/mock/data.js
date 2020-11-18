@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Rishav - A computerphile', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Rishav Kumar',
+  subtitle: 'Competitive programmer & Software Developer',
   cta: '',
 };
 
@@ -68,22 +68,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/rishavjnv12',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://www.codechef.com/users/hitk_69',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/rishav-kumar-ab8a48166/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/rishavjnv12',
     },
   ],
 };
